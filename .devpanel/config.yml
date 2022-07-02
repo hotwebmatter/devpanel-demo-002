@@ -34,9 +34,5 @@ hooks:
         # echo "Hello World"
         # date >> test.txt
         cmd: |-
-          echo "Hello World"
-      - tag: ".*"
-        # matches any tags
-        # run commands or scripts from here; eg:
-        cmd: |-
-          echo "Hello World"
+          echo "Hello Deploy"
+          echo $PWD
