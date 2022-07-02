@@ -35,4 +35,4 @@ hooks:
         # date >> test.txt
         cmd: |-
           echo "Hello Deploy"
-          echo $PWD
+          .devpanel/ci/deploy.sh
