@@ -2,4 +2,5 @@
 
 echo "I am deploy.sh"
 echo "I run in $PWD"
-/vendor/bin/drush status
+composer install
+./vendor/bin/drush status
